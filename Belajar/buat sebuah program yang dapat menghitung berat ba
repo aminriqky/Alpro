@@ -1,0 +1,23 @@
+buat sebuah program yang dapat menghitung berat badan ideal seseorang
+
+pseudo code:
+
+double tinggi, tinggi2, berat, ideal		
+
+tinggi = ....
+berat = ....
+//tinggi2 untuk konfersi menjadi meter
+
+ideal = berat / tinggi2 pangkat2
+
+if ideal <=18.5
+	write kurus
+
+else if ideal >18.5 && ideal <= 25
+	write normal
+
+else if ideal >25 && ideal <= 30
+	write Gemuk
+
+else
+	write Obesitas
